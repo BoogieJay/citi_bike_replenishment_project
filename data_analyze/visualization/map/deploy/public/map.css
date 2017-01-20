@@ -1,0 +1,45 @@
+body {
+	margin:0; 
+	padding:0;
+}
+
+.form-group {
+	position:absolute;
+	display: inline-block;
+	text-align: center;
+}
+
+#map {
+	position:absolute; 
+	top:0; 
+	bottom:0; 
+	width:100%;
+	z-index: -1; 
+}
+
+#two-inputs{
+	margin-left: 20px;
+	display: block;
+	position:fixed;
+	width: 300px;
+	background: rgba(255,255,255,0.75);
+	height: 100px;
+	border-radius: 22px;
+}
+
+#instruction{
+	margin-left: 20px;
+	padding: 0 10px;
+	position: fixed;
+	top: 120px;
+	background: rgba(255,255,255,0.85);
+	border-radius: 22px;
+	display: block;
+	height: 250px;
+	width: 200px;
+}
+
+#two-inputs select{
+	display: inline-block;
+	width: 30%;
+}

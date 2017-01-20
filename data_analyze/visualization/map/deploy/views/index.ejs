@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>CitiBikeSupply</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/map.css">
+</head>
+<body>
+<!-- <p id="daytime"></p> -->
+<div id = "two-inputs" class="container">
+	<h4>Select day and time</h4>
+	<select id = "day" class="custom-select form-control">
+		<option>Mon</option>
+		<option>Tue</option>
+		<option>Wed</option>
+		<option>Thu</option>
+		<option>Fri</option>
+		<option>Sat</option>
+		<option>Sun</option>
+	</select>
+	<select id = "time" class="custom-select form-control">
+		<option>Morning</option>
+		<option>Night</option>
+	</select>
+	<button id = "submit-button" class="btn btn-primary">Submit</button>
+</div>
+<dvi id = "instruction">
+	<h4>Showing the top 10 stations which need immediately replenished at the day and time you selected</h4>
+	<h4>For more information about this project, check the project <a href="https://github.com/BoogieJay/citi_bike_replenishment_project">Github page</a></h4>
+</dvi>
+
+<div id='map'></div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.js'></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/map.js"></script>
+</body>
+</html>
