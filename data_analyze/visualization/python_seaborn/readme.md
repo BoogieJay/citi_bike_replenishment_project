@@ -1,0 +1,1 @@
+Since after reducer, three data source are all less than 1M. So I use Pandas to analyze it again in order to get all the visualization part of our project. You can open Mon_morning_analyze.html to see the visualization part.
