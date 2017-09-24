@@ -8,5 +8,5 @@
   * Visualized by using Seaborn and MapBox
 
 2. More detail
-  * Presentation slides [https://drive.google.com/open?id=0B2eD1kXA8I9xZVJYOThReU1hTkk] 
-  * Final paper [https://drive.google.com/open?id=0B2eD1kXA8I9xZEwwSWxZcUhvQUk]
+  * Presentation slides [https://drive.google.com/open?id=0By7vm-7wUgYnX2lOcHNZNWFiNXc] 
+  * Final paper [https://drive.google.com/open?id=1A9Tiwol3hv_zlAqeqT8FkfYlUShGob8TP_3NL5Y7ftY]
